@@ -1,0 +1,61 @@
+body {background-color: #FAFAFA}
+
+button {cursor: pointer}
+
+/* Center the form on the page */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 16px; /* prevents edge-touch on small screens */
+}
+
+/* The fieldset itself */
+form, fieldset {
+  width: 100%;
+  max-width: 1000px;   /* controls centered width on desktop */
+  box-sizing: border-box;
+  text-align: left;  /* keeps text left-aligned */
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  form fieldset {
+    padding: 12px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+
+
+.totals {display: flex;
+  margin-top: 20px;
+  width: fit-content
+}
+
+.subtotal {background-color: #FFF3E0;
+border: 1px orange solid;
+margin: 5px;
+padding: 5px}
+
+.word {background: white;
+padding: 10px;
+margin-left: 5px;
+margin-right: 5px}
+
+.word.selected {
+  background: black;
+  color: white;
+}
+
+label {border: 1px solid orange;
+background-color: #FFF3E0;
+padding: 2px}
+
+h1, h2, legend {color: orange}
+
+#next-button {color: white;
+  background-color: orange;
+  font-size: 100%;
+width: 100px;
+height: 50px}
