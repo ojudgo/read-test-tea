@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name='description' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>READING TEST TEACHER FORM</title>
+<link rel="stylesheet" href="./styles.css" />
+  </head>
+  
+ <body>
+
+<div class="form-wrapper">
+  <form>
+    <fieldset>
+      <legend>Form A</legend>
+
+      <h1 id="question-title">Question 1</h1>
+
+      <h2>Reading accuracy</h2>
+      
+      <p>Click any errors.</p>
+      
+      <div id="sentenceContainer"></div>
+
+      <fieldset class="totals">
+        <legend>Counted words</legend>
+        <div class="subtotal" id="wordsInSentence"></div>
+        <div class="subtotal" id="cumulativeTotal"></div>
+      </fieldset>
+
+      <h2>Comprehension</h2>
+      <p>When the student has read the sentence, follow up with these comprehension questions.</p>
+      <div id="questionsContainer"></div>
+
+      <button type="button" id="next-button">Next</button>
+    </fieldset>
+  </form>
+</div>
+<script src="./script.js"></script>
+  </body>
+</html>
